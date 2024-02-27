@@ -60,6 +60,9 @@ ignore = [
 "__init__.py" = ["F401"]
 "test/**" = ["D", "F403", "F405"]
 
+[tool.codespell]
+skip = 'pdm.lock'
+
 [tool.towncrier]
 directory = "changelog.d"
 filename = "CHANGELOG.md"
